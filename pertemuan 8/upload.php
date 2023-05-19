@@ -5,5 +5,5 @@
     $file_tmp_name = $_FILES['upload_file']['tmp_name'];
     $file_error = $_FILES['upload_file']['error'];
 
-    move_uploaded_file($file_tmp_name, DIR . '../pertemuan 8' . $file_name);
+    move_uploaded_file($file_tmp_name, DIR . '/images' . $file_name);
 ?>
